@@ -168,7 +168,7 @@ class ClientFilter extends Filter {
                 }
             } catch (ParseException e) {
                 clientEngine.processError(e);
-                closeConnection();
+                //closeConnection();
                 return false;
             }
 
